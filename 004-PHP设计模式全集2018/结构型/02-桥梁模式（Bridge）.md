@@ -6,7 +6,7 @@
 
 ## 2.2.2. 例子
 
-    Symfony 学术桥梁
+[Symfony 学术桥梁](https://github.com/symfony/DoctrineBridge)
 
 ## 2.2.3. UML 图
 
@@ -14,7 +14,7 @@
 
 ## 2.2.4. 代码
 
-你也可以在 GitHub 上查看代码
+你也可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/Bridge) 上查看代码
 
 FormatterInterface.php
 ```
