@@ -12,6 +12,7 @@ abstract class MenuComponent
     public function getUrl(){} 
     public function display(){} 
 } 
+
 class Menu extends MenuComponent 
 { 
     private $_items = array(); 
@@ -59,6 +60,7 @@ class Item extends MenuComponent
         echo $this->_name."#".$this->_url."<br/>"; 
     } 
 } 
+
 class Client 
 { 
     private $_menu = null; 
@@ -72,7 +74,7 @@ class Client
     { 
         $this->_menu = $menu; 
     } 
-    
+
     public function displayMenu() 
     { 
         $this->_menu->display(); 
