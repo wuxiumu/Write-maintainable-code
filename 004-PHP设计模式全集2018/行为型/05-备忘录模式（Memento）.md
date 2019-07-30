@@ -18,13 +18,13 @@ Caretaker —— 负责保存 Memento。 它可以修改一个对象；决定 Or
 
 并将这个随机数存在时序机中
 
-保存之前控制  ORM Model  中的状态
+保存之前控制  [ORM Model](http://en.wikipedia.org/wiki/Object-relational_mapping)  中的状态
 
 ## 3.5.3. UML 图
 ![](/000-imgs/3ZBanRSn95.png)
 
 ## 3.5.4. 代码
-你可以在  [GitHub]() 查看这段代码。
+你可以在  [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Memento) 查看这段代码。
 
 Memento.php
 ```
