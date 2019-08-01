@@ -13,7 +13,7 @@
 ![](/000-imgs/20190726152257.png)
 
 ## 1.3.3. 代码
-你可以在  GitHub 查看这段代码
+你可以在  [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Multiton) 查看这段代码
 
 Logger.php
 ```
