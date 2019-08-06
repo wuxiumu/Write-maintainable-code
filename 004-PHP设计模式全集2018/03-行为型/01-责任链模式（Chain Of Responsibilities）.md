@@ -16,7 +16,7 @@ Yii 框架: CFilterChain 是一个控制器行为过滤器链。执行点会有�
 ![](/000-imgs/788RLCJGxg.png)
 
 ## 3.1.4. 代码
-你也可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/ChainOfResponsibilities) 上查看此代码
+你也可以在 GitHub 上查看此代码
 
 Handler.php
 

@@ -21,7 +21,7 @@ Symfony2：SF2 命令可以从 CLI 运行，它的建立只需考虑到命令行
 ![](/000-imgs/hSXJ3cYequ.png)
 
 ## 3.2.4. Code
-你也可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Command) 上查看 源码
+你也可以在 GitHub 上查看 源码
 
 CommandInterface.php
 ```

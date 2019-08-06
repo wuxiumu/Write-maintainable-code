@@ -13,7 +13,7 @@
 
 ## 1.1.3. 代码
 
-你可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/AbstractFactory) 上找到这个代码。
+你可以在 GitHub 上找到这个代码。
 
 Product.php
 ```

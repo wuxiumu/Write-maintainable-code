@@ -16,7 +16,7 @@
 ![](/000-imgs/bVjGzeAlPV.png)
 
 ## 1.8.4. 代码部分
-你也可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Singleton) 中查看
+你也可以在 GitHub 中查看
 
 Singleton.php
 ```

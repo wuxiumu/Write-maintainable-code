@@ -24,7 +24,7 @@
 ![](/000-imgs/6rgmEPsepU.png)
 
 ## 1.4.4. 代码
-你可以在这里找到源代码： [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/Multiton)
+你可以在这里找到源代码： GitHub
 
 Multiton.php
 ```

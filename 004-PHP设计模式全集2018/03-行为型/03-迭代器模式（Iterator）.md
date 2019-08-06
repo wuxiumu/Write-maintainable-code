@@ -13,7 +13,7 @@ PHP 标准库 (SPL) 定义了一个最适合此模式的接口迭代器！往往
 ![](/000-imgs/mqKM1434A9.png)
 
 ## 3.3.5. 代码
-你可以在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/Iterator) 上找到这些代码
+你可以在 GitHub 上找到这些代码
 
 Book.php
 ```

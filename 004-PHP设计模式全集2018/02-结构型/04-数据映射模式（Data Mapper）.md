@@ -21,7 +21,7 @@
 ![WHNWAjWM3i.png](/000-imgs/WHNWAjWM3i.png)
 
 ## 2.4.4. 代码
-你能在 [GitHub](https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/DataMapper) 上面找到这些代码
+你能在 GitHub 上面找到这些代码
 
 User.php
 ```
