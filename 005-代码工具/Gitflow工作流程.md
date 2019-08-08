@@ -147,3 +147,6 @@ git merge issue-#001
 git push
 git branch -d issue-#001
 ````
+>其他 
+
+[Git Flow工作流程 - 简书](https://www.jianshu.com/p/9a76e9aa9534)
