@@ -200,6 +200,6 @@ $app->bind('People', 'App\People');
 //通过容器实现依赖注入，完成类的实例化；
 $people = $app->make('People');
 //调用方法
-echo $people->run('昌河') . PHP_EOL;
+echo $people->run('保时捷') . PHP_EOL;
 
 

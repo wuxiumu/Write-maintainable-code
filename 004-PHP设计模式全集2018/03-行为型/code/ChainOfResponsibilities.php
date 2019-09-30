@@ -26,19 +26,19 @@ abstract class SocialNotifier {
 
 class TwitterSocialNotifier extends SocialNotifier {
     public function publish($message) {
-        echo 'TwitterSocialNotifier_publish' . $message . '<br/>'; 
+        echo 'TwitterSocialNotifier_publish' . $message . PHP_EOL; 
     }
 }
 
 class FacebookSocialNotifier extends SocialNotifier {
     protected function publish($message) {
-        echo 'FacebookSocialNotifier_publish' . $message . '<br/>'; 
+        echo 'FacebookSocialNotifier_publish' . $message . PHP_EOL; 
     }
 }
 
 class PinterestSocialNotifier extends SocialNotifier {
     protected function publish($message) {
-        echo 'PinterestSocialNotifierr_publish' . $message . '<br/>'; 
+        echo 'PinterestSocialNotifierr_publish' . $message . PHP_EOL; 
     }
 }
 
@@ -46,7 +46,7 @@ $notifier = new TwitterSocialNotifier();
 
 $notifier->notifyNext(new FacebookSocialNotifier())
     ->notifyNext(new PinterestSocialNotifier());
-$notifier->push('Awesome new product availiable.')
+$notifier->push(' Awesome new product availiable.')
 
 
 ?>

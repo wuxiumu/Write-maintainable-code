@@ -38,7 +38,7 @@ class Originator {
      * 测试用方法，显示状态
      */
     public function showState() {
-        echo "Original Status:", $this->getState(), "<br />";
+        echo "Original Status:", $this->getState(), "".PHP_EOL;
     }
   
 }

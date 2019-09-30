@@ -16,7 +16,7 @@ interface Strategy {
 class ConcreteStrategyA implements Strategy {
   
     public function algorithmInterface() {
-        echo 'algorithmInterface A<br />';
+        echo 'algorithmInterface A'.PHP_EOL;
     }
 }
   
@@ -26,7 +26,7 @@ class ConcreteStrategyA implements Strategy {
 class ConcreteStrategyB implements Strategy {
   
     public function algorithmInterface() {
-        echo 'algorithmInterface B<br />';
+        echo 'algorithmInterface B'.PHP_EOL;
     }
 }
   
@@ -36,7 +36,7 @@ class ConcreteStrategyB implements Strategy {
 class ConcreteStrategyC implements Strategy {
   
     public function algorithmInterface() {
-        echo 'algorithmInterface C<br />';
+        echo 'algorithmInterface C'.PHP_EOL;
     }
 }
   

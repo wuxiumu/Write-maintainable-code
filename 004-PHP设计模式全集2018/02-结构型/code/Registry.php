@@ -91,7 +91,7 @@ class Test
 // require_once "Registry.class.php";
 // require_once "test.class.php";
 //new a object
-$test=new Test();
+$test = new Test();
 //$test->hello();
 //注册对象
 Registry::set('testclass',$test);

@@ -42,11 +42,11 @@ class Receiver
     }
     public function action()
     {
-        echo $this->_name." 执行攻击命令（action）<br />";
+        echo $this->_name." 执行攻击命令（action）" .PHP_EOL;
     }
     public function action1()
     {
-        echo $this->_name." 执行防御命令（action1）<br/>";
+        echo $this->_name." 执行防御命令（action1）" .PHP_EOL;
     }
 }
 // 具体的命令

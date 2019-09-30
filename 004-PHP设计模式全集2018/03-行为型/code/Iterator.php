@@ -22,7 +22,7 @@ class TestIterator implements Iterator {
    * @see TestIterator::rewind()
    */
   public function rewind() {
-    echo '第'.++$this->_step.'步：执行 '.__METHOD__.'<br>';
+    echo '第'.++$this->_step.'步：执行 '.__METHOD__.PHP_EOL;
     $this->_key = 0;
   }
   /**
@@ -32,7 +32,7 @@ class TestIterator implements Iterator {
    * @return bool
    */
   public function valid() {
-    echo '第'.++$this->_step.'步：执行 '.__METHOD__.'<br>';
+    echo '第'.++$this->_step.'步：执行 '.__METHOD__.PHP_EOL;
     return isset($this->_test[$this->_key]);
   }
   /**
@@ -41,7 +41,7 @@ class TestIterator implements Iterator {
    * @see TestIterator::next()
    */
   public function next() {
-    echo '第'.++$this->_step.'步：执行 '.__METHOD__.'<br>';
+    echo '第'.++$this->_step.'步：执行 '.__METHOD__.PHP_EOL;
     $this->_key++;
   }
   /**
@@ -51,7 +51,7 @@ class TestIterator implements Iterator {
    * @return value
    */
   public function current() {
-    echo '第'.++$this->_step.'步：执行 '.__METHOD__.'<br>';
+    echo '第'.++$this->_step.'步：执行 '.__METHOD__.PHP_EOL;
     return $this->_test[$this->_key];
   }
   /**
@@ -61,12 +61,12 @@ class TestIterator implements Iterator {
    * @see TestIterator::key()
    */
   public function key() {
-    echo '第'.++$this->_step.'步：执行 '.__METHOD__.'<br>';
+    echo '第'.++$this->_step.'步：执行 '.__METHOD__.PHP_EOL;
     return $this->_key;
   }
 }
 $iterator = new TestIterator();
 foreach($iterator as $key => $value){
-  echo "输出索引为{$key}的元素".":$value".'<br><br>';
+  echo "输出索引为{$key}的元素".":$value".PHP_EOL.PHP_EOL;
 }
 ?>

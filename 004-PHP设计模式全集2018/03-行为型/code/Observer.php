@@ -113,15 +113,15 @@ class EmailObserver implements Observer {
     $status = $observable->getStatus();
     if($status == Login::LOGIN_ACCESS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆成功!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_WRONG_PASS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，密码错误!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_USER_UNKNOWN){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，无此用户!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'----------------'.PHP_EOL;
     }
   }
 }
@@ -133,15 +133,15 @@ class PhoneObserver implements Observer {
     $status = $observable->getStatus();
     if($status == Login::LOGIN_ACCESS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆成功!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_WRONG_PASS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，密码错误!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_USER_UNKNOWN){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，无此用户!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'----------------'.PHP_EOL;
     }
   }
 }
@@ -150,15 +150,15 @@ class AbcObserver implements Observer {
     $status = $observable->getStatus();
     if($status == Login::LOGIN_ACCESS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆成功!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆成功!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_WRONG_PASS){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，密码错误!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，密码错误!'.'----------------'.PHP_EOL;
     }
     if($status == Login::LOGIN_USER_UNKNOWN){
 //      $this->sendMail('用户ip:'.$observable->ip.'登陆失败，无此用户!');
-      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'------------------';
+      echo __CLASS__.'用户ip:'.$observable->ip.'登陆失败，无此用户!'.'----------------'.PHP_EOL;
     }
   }
 }

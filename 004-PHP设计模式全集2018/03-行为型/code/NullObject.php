@@ -87,14 +87,14 @@ $customer3 = CustomerFactory::getCustomer('Joe');
 $customer4 = CustomerFactory::getCustomer('Julie');
 
 echo $customer1->getName();
-echo '<br/>';
+echo PHP_EOL;
 
 echo $customer2->getName();
-echo '<br/>';
+echo PHP_EOL;
 
 echo $customer3->getName();
-echo '<br/>';
+echo PHP_EOL;
 
 echo $customer4->getName();
-echo '<br/>';
+echo PHP_EOL;
 
